@@ -1,0 +1,179 @@
+<robot name="swarm_robot_URDF-v4">
+    <link name="ga12-n20-so310d-e-v1_1">
+        <inertial>
+            <origin xyz="-1.3592178036465619e-05 -0.0009373587287121677 0.006029434308014925" rpy="0.0 -8.979033897427474e-92 0.0" />
+            <mass value="0.02021242715554708" />
+            <inertia ixx="1.7251749096718982e-06" iyy="5.258151319348703e-07" izz="1.6218707990133452e-06" ixy="-5.095670370347291e-09" iyz="-1.9583263432512883e-07" ixz="7.149822415916891e-09" />
+        </inertial>
+        <visual name="ga12-n20-so310d-e-v1_1_visual">
+            <origin xyz="-2.288483129109231e-09 -0.018000003345246655 0.005000000988025008" rpy="-2.5510775462822607e-15 -1.570796326794887 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/ga12-n20-so310d-e-v1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="ga12-n20-so310d-e-v1_1_collision">
+            <origin xyz="0 -0.00775 0.00925855" rpy="0 0 0" />
+            <geometry>
+                <box size="0.012 0.0405 0.01851710" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="ga12-n20-so310d-e-v1_2">
+        <inertial>
+            <origin xyz="1.3594293696042593e-05 0.0009373520382188261 0.006029434308014951" rpy="0.0 -8.979033897427474e-92 0.0" />
+            <mass value="0.02021242715554708" />
+            <inertia ixx="1.7251749096719525e-06" iyy="5.258151319348839e-07" izz="1.6218707990134061e-06" ixy="-5.095670370348138e-09" iyz="1.9583263432508479e-07" ixz="-7.149822415917315e-09" />
+        </inertial>
+        <visual name="ga12-n20-so310d-e-v1_2_visual">
+            <origin xyz="4.404142689429236e-09 0.017999996654753322 0.005000000988025195" rpy="3.141592653589791 -1.570796326794894 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/ga12-n20-so310d-e-v1_2.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="ga12-n20-so310d-e-v1_2_collision">
+            <origin xyz="0 0.00775 0.00925855" rpy="0 0 0" />
+            <geometry>
+                <box size="0.012 0.0405 0.01851710" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="0.0019025210578297591 -0.001 -0.00770144655489737" rpy="1.5707963267948966 0 0" />
+            <mass value="0.10287425000000001" />
+            <inertia ixx="4.5509879389818344e-05" iyy="8.641784693389976e-05" izz="4.103360336538436e-05" ixy="-1.0188257017580107e-22" iyz="1.577839437121839e-20" ixz="1.8371024700765687e-10" />
+        </inertial>
+        <visual name="base_link_visual">
+            <origin xyz="0.0019025210578297591 -0.001 -0.00900180901197482" rpy="1.5707963267948966 0 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="base_link_collision">
+            <origin xyz="0.0019025210578297591 -0.001 -0.00900180901197482" rpy="1.5707963267948966 0 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/base_link.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1">
+        <inertial>
+            <origin xyz="-2.8728333713018418e-05 0.0036048776263011505 7.675506719095892e-10" rpy="0.0 -0.0 0.0" />
+            <mass value="0.01378815117462468" />
+            <inertia ixx="8.79380760743047e-07" iyy="1.6618309203939595e-06" izz="8.785693073205128e-07" ixy="-3.341012244553176e-10" iyz="-1.1693636256380384e-12" ixz="6.070468080778837e-13" />
+        </inertial>
+        <visual name="Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1_visual">
+            <origin xyz="-0.029804957384581568 0.06100000334524669 -0.03206972540230936" rpy="-3.141592653589793 -3.944577515789815e-15 -5.798479893310872e-15" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1_collision">
+            <origin xyz="0 0.00275 0" rpy="1.5707963267948966 0 0" />
+            <geometry>
+                <cylinder radius="0.0142" length="0.0085" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1">
+        <inertial>
+            <origin xyz="2.8731836674215915e-05 -0.0038951198602150327 -1.2508835922631078e-09" rpy="0.0 -0.0 0.0" />
+            <mass value="0.013788151174624638" />
+            <inertia ixx="8.793835275609633e-07" iyy="1.6618321494667147e-06" izz="8.785719831049779e-07" ixy="3.330043477431247e-10" iyz="-1.1932051484017658e-14" ixz="-5.802018140563768e-15" />
+        </inertial>
+        <visual name="Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1_visual">
+            <origin xyz="-2.288483155754584e-09 -0.0004999966547533141 -9.880249240978855e-10" rpy="3.14159265358979 1.570796326794887 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1_collision">
+            <origin xyz="0 -0.00475 0" rpy="1.5707963267948966 0 0" />
+            <geometry>
+                <cylinder radius="0.0142" length="0.0085" />
+            </geometry>
+        </collision>
+    </link>
+    <link name="upper_deck-v1_1">
+        <inertial>
+            <origin xyz="0.002493496751977873 0.05794695742758638 0.05105954582043595" rpy="1.5707963267948988 1.5707963267948672 0" />
+            <mass value="0.06405600000000006" />
+            <inertia ixx="1.9238151999999814e-05" iyy="2.4704264000001174e-05" izz="4.3899712000001134e-05" ixy="-1.4368232340969587e-19" iyz="2.4582430230280764e-20" ixz="-8.15205097470796e-19" />
+        </inertial>
+        <visual name="upper_deck-v1_1_visual">
+            <origin xyz="0.0024934967519779187 0.0794469574275864 0.05105954582043595" rpy="1.5707963267948988 1.5707963267948672 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/upper_deck-v1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+        <collision name="upper_deck-v1_1_collision">
+            <origin xyz="0.0024934967519779187 0.0794469574275864 0.05105954582043595" rpy="1.5707963267948988 1.5707963267948672 0" />
+            <geometry>
+                <mesh filename="package://swarm_bb_description/meshes/upper_deck-v1_1.stl" scale="0.001 0.001 0.001" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="Rígida-10" type="fixed">
+        <origin xyz="0.000003829 0.0175 -0.005" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="ga12-n20-so310d-e-v1_2" />
+    </joint>
+    <joint name="Rígida-11" type="fixed">
+        <origin xyz="-0.000003831 -0.0195 -0.005" rpy="0 0 0" />
+        <parent link="base_link" />
+        <child link="ga12-n20-so310d-e-v1_1" />
+    </joint>
+    <joint name="Revolución-12" type="continuous">
+        <origin xyz="0.0 -0.027999999999999997 0.0050000000000000044" rpy="-3.141592653589793 -5.771500468186914e-31 -2.0640974287023965e-31" />
+        <parent link="ga12-n20-so310d-e-v1_1" />
+        <child link="Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1" />
+        <axis xyz="0 -1 0" />
+    </joint>
+    <joint name="Revolución-13" type="continuous">
+        <origin xyz="0.0 0.027999999999999997 0.0050000000000000044" rpy="3.141592653589793 -5.771500468186914e-31 -8.668192073666245e-32" />
+        <parent link="ga12-n20-so310d-e-v1_2" />
+        <child link="Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1" />
+        <axis xyz="0 -1 0" />
+    </joint>
+    <joint name="upper_deck_fixed_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="upper_deck-v1_1" />
+        <origin xyz="-0.000591 0.05006 -0.043" rpy="1.5707963267948966 0 0" />
+    </joint>
+    <gazebo reference="Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1">
+        <!--Coeficientes iniciales de friccion para pruebas; no medidos.-->
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+    </gazebo>
+    <gazebo reference="Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1">
+        <!--Coeficientes iniciales de friccion para pruebas; no medidos.-->
+        <mu1>1.0</mu1>
+        <mu2>1.0</mu2>
+    </gazebo>
+    <!-- Control diferencial de un solo robot en Gazebo Classic / ROS 2. -->
+    <gazebo>
+        <plugin name="swarm_bb_diff_drive" filename="libgazebo_ros_diff_drive.so">
+            <ros>
+                <namespace>/swarm_bb_01</namespace>
+            </ros>
+            <update_rate>50</update_rate>
+            <num_wheel_pairs>1</num_wheel_pairs>
+            <left_joint>Revolución-13</left_joint>
+            <right_joint>Revolución-12</right_joint>
+            <!-- Dimensiones de las colisiones actuales, sin neumaticos adicionales. -->
+            <wheel_separation>0.0855</wheel_separation>
+            <wheel_diameter>0.0284</wheel_diameter>
+            <!-- Valores iniciales de prueba; no son mediciones de los motores reales. -->
+            <max_wheel_torque>0.02</max_wheel_torque>
+            <max_wheel_acceleration>0.1</max_wheel_acceleration>
+            <!-- 1: pose y velocidad del mundo simulado; 0: odometria por ruedas. -->
+            <odometry_source>1</odometry_source>
+            <publish_odom>true</publish_odom>
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_link</robot_base_frame>
+            <!-- Primera prueba en Gazebo: evita duplicar TF del lanzamiento de RViz. -->
+            <publish_odom_tf>false</publish_odom_tf>
+            <publish_wheel_tf>false</publish_wheel_tf>
+        </plugin>
+    </gazebo>
+</robot>

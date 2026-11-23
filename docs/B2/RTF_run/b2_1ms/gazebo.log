@@ -1,0 +1,150 @@
+[INFO] [launch]: All log files can be found below /home/lcmj2803/.ros/log/2026-11-19-17-44-25-089396-lcmj2803-22066
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [22072]
+[INFO] [robot_state_publisher-2]: process started with pid [22074]
+[INFO] [spawn_entity.py-3]: process started with pid [22076]
+[INFO] [robot_state_publisher-4]: process started with pid [22078]
+[INFO] [spawn_entity.py-5]: process started with pid [22080]
+[INFO] [robot_state_publisher-6]: process started with pid [22082]
+[INFO] [spawn_entity.py-7]: process started with pid [22084]
+[INFO] [robot_state_publisher-8]: process started with pid [22086]
+[INFO] [spawn_entity.py-9]: process started with pid [22088]
+[INFO] [robot_state_publisher-10]: process started with pid [22090]
+[INFO] [spawn_entity.py-11]: process started with pid [22092]
+[INFO] [robot_state_publisher-12]: process started with pid [22094]
+[INFO] [spawn_entity.py-13]: process started with pid [22096]
+[robot_state_publisher-6] [WARN] [1795128265.922944208] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-6] [INFO] [1795128265.925736323] [swarm_bb_03.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-6] [INFO] [1795128265.925939840] [swarm_bb_03.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-6] [INFO] [1795128265.925959605] [swarm_bb_03.robot_state_publisher]: got segment base_link
+[robot_state_publisher-6] [INFO] [1795128265.925977345] [swarm_bb_03.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-6] [INFO] [1795128265.925996272] [swarm_bb_03.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-6] [INFO] [1795128265.926014012] [swarm_bb_03.robot_state_publisher]: got segment upper_deck-v1_1
+[robot_state_publisher-10] [WARN] [1795128265.932073720] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-10] [INFO] [1795128265.933050381] [swarm_bb_05.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-10] [INFO] [1795128265.933375003] [swarm_bb_05.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-10] [INFO] [1795128265.933399378] [swarm_bb_05.robot_state_publisher]: got segment base_link
+[robot_state_publisher-10] [INFO] [1795128265.933415511] [swarm_bb_05.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-10] [INFO] [1795128265.933434647] [swarm_bb_05.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-10] [INFO] [1795128265.933451689] [swarm_bb_05.robot_state_publisher]: got segment upper_deck-v1_1
+[robot_state_publisher-8] [WARN] [1795128265.935509981] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-8] [INFO] [1795128265.935764692] [swarm_bb_04.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-8] [INFO] [1795128265.935956686] [swarm_bb_04.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-8] [INFO] [1795128265.935976940] [swarm_bb_04.robot_state_publisher]: got segment base_link
+[robot_state_publisher-8] [INFO] [1795128265.935994680] [swarm_bb_04.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-8] [INFO] [1795128265.936013187] [swarm_bb_04.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-8] [INFO] [1795128265.936029949] [swarm_bb_04.robot_state_publisher]: got segment upper_deck-v1_1
+[robot_state_publisher-2] [WARN] [1795128265.938405461] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-2] [INFO] [1795128265.938751315] [swarm_bb_01.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-2] [INFO] [1795128265.938958324] [swarm_bb_01.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-2] [INFO] [1795128265.938978508] [swarm_bb_01.robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1795128265.938996108] [swarm_bb_01.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-2] [INFO] [1795128265.939013289] [swarm_bb_01.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-2] [INFO] [1795128265.939029562] [swarm_bb_01.robot_state_publisher]: got segment upper_deck-v1_1
+[robot_state_publisher-4] [WARN] [1795128265.947964357] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-4] [INFO] [1795128265.948267678] [swarm_bb_02.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-4] [INFO] [1795128265.948412389] [swarm_bb_02.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-4] [INFO] [1795128265.948431805] [swarm_bb_02.robot_state_publisher]: got segment base_link
+[robot_state_publisher-4] [INFO] [1795128265.948459043] [swarm_bb_02.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-4] [INFO] [1795128265.948476713] [swarm_bb_02.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-4] [INFO] [1795128265.948492846] [swarm_bb_02.robot_state_publisher]: got segment upper_deck-v1_1
+[robot_state_publisher-12] [WARN] [1795128265.962752131] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[robot_state_publisher-12] [INFO] [1795128265.962926245] [swarm_bb_06.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1-1_1__Pololu-Wheel-32x7mm-rim___-_________-1_1
+[robot_state_publisher-12] [INFO] [1795128265.963061807] [swarm_bb_06.robot_state_publisher]: got segment Pololu-Wheel-32x7mm-v1_1__Pololu-Wheel-32x7mm-rim___-__________1
+[robot_state_publisher-12] [INFO] [1795128265.963079896] [swarm_bb_06.robot_state_publisher]: got segment base_link
+[robot_state_publisher-12] [INFO] [1795128265.963123337] [swarm_bb_06.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_1
+[robot_state_publisher-12] [INFO] [1795128265.963139400] [swarm_bb_06.robot_state_publisher]: got segment ga12-n20-so310d-e-v1_2
+[robot_state_publisher-12] [INFO] [1795128265.963153648] [swarm_bb_06.robot_state_publisher]: got segment upper_deck-v1_1
+[spawn_entity.py-9] [INFO] [1795128266.610380251] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-9] [INFO] [1795128266.610950854] [spawn_entity]: Loading entity published on topic /swarm_bb_04/robot_description
+[spawn_entity.py-9] [INFO] [1795128266.622997008] [spawn_entity]: Waiting for entity xml on /swarm_bb_04/robot_description
+[spawn_entity.py-9] [INFO] [1795128266.638591308] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-9] [INFO] [1795128266.639301664] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-7] [INFO] [1795128266.690068382] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-7] [INFO] [1795128266.690754223] [spawn_entity]: Loading entity published on topic /swarm_bb_03/robot_description
+[spawn_entity.py-7] [INFO] [1795128266.694644242] [spawn_entity]: Waiting for entity xml on /swarm_bb_03/robot_description
+[spawn_entity.py-7] [INFO] [1795128266.711986251] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-7] [INFO] [1795128266.712748848] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-13] [INFO] [1795128266.736360089] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-13] [INFO] [1795128266.737005841] [spawn_entity]: Loading entity published on topic /swarm_bb_06/robot_description
+[spawn_entity.py-3] [INFO] [1795128266.740568445] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-13] [INFO] [1795128266.740897956] [spawn_entity]: Waiting for entity xml on /swarm_bb_06/robot_description
+[spawn_entity.py-3] [INFO] [1795128266.741248979] [spawn_entity]: Loading entity published on topic /swarm_bb_01/robot_description
+[spawn_entity.py-3] [INFO] [1795128266.745764008] [spawn_entity]: Waiting for entity xml on /swarm_bb_01/robot_description
+[spawn_entity.py-3] [INFO] [1795128266.756999584] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-3] [INFO] [1795128266.757619495] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-13] [INFO] [1795128266.757811489] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-13] [INFO] [1795128266.758388797] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-11] [INFO] [1795128266.765745947] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-11] [INFO] [1795128266.766408252] [spawn_entity]: Loading entity published on topic /swarm_bb_05/robot_description
+[spawn_entity.py-11] [INFO] [1795128266.770618074] [spawn_entity]: Waiting for entity xml on /swarm_bb_05/robot_description
+[spawn_entity.py-11] [INFO] [1795128266.782583282] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-11] [INFO] [1795128266.783045492] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-5] [INFO] [1795128266.805659330] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-5] [INFO] [1795128266.806416060] [spawn_entity]: Loading entity published on topic /swarm_bb_02/robot_description
+[spawn_entity.py-5] [INFO] [1795128266.809874181] [spawn_entity]: Waiting for entity xml on /swarm_bb_02/robot_description
+[spawn_entity.py-5] [INFO] [1795128266.822160938] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-5] [INFO] [1795128266.822753821] [spawn_entity]: Waiting for service /spawn_entity
+[spawn_entity.py-9] [INFO] [1795128267.657947260] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-7] [INFO] [1795128267.722272614] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-13] [INFO] [1795128267.771120023] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-3] [INFO] [1795128267.772248170] [spawn_entity]: Calling service /spawn_entity
+[spawn_entity.py-9] [INFO] [1795128267.787194902] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_04]
+[spawn_entity.py-11] [INFO] [1795128267.790818477] [spawn_entity]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1795128267.814296391] [swarm_bb_04.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128267.814757623] [swarm_bb_04.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128267.816773312] [swarm_bb_04.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_04/cmd_vel]
+[gzserver-1] [INFO] [1795128267.820989281] [swarm_bb_04.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_04/odom]
+[spawn_entity.py-5] [INFO] [1795128267.829979459] [spawn_entity]: Calling service /spawn_entity
+[INFO] [spawn_entity.py-9]: process has finished cleanly [pid 22088]
+[spawn_entity.py-7] [INFO] [1795128268.078057148] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_03]
+[gzserver-1] [INFO] [1795128268.088037327] [swarm_bb_03.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128268.088127772] [swarm_bb_03.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128268.088969848] [swarm_bb_03.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_03/cmd_vel]
+[gzserver-1] [INFO] [1795128268.089870800] [swarm_bb_03.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_03/odom]
+[INFO] [spawn_entity.py-7]: process has finished cleanly [pid 22084]
+[spawn_entity.py-13] [INFO] [1795128268.348183519] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_06]
+[gzserver-1] [INFO] [1795128268.358636244] [swarm_bb_06.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128268.358706225] [swarm_bb_06.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128268.359590276] [swarm_bb_06.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_06/cmd_vel]
+[gzserver-1] [INFO] [1795128268.360487806] [swarm_bb_06.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_06/odom]
+[INFO] [spawn_entity.py-13]: process has finished cleanly [pid 22096]
+[spawn_entity.py-3] [INFO] [1795128268.617383026] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_01]
+[gzserver-1] [INFO] [1795128268.626477268] [swarm_bb_01.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128268.626549415] [swarm_bb_01.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128268.627352589] [swarm_bb_01.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_01/cmd_vel]
+[gzserver-1] [INFO] [1795128268.628231821] [swarm_bb_01.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_01/odom]
+[INFO] [spawn_entity.py-3]: process has finished cleanly [pid 22076]
+[spawn_entity.py-11] [INFO] [1795128268.887244419] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_05]
+[gzserver-1] [INFO] [1795128268.894985137] [swarm_bb_05.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128268.895056725] [swarm_bb_05.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128268.895785938] [swarm_bb_05.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_05/cmd_vel]
+[gzserver-1] [INFO] [1795128268.896540992] [swarm_bb_05.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_05/odom]
+[INFO] [spawn_entity.py-11]: process has finished cleanly [pid 22092]
+[spawn_entity.py-5] [INFO] [1795128269.154029304] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [swarm_bb_02]
+[gzserver-1] [INFO] [1795128269.162675863] [swarm_bb_02.swarm_bb_diff_drive]: Wheel pair 1 separation set to [0.085500m]
+[gzserver-1] [INFO] [1795128269.162762117] [swarm_bb_02.swarm_bb_diff_drive]: Wheel pair 1 diameter set to [0.028400m]
+[gzserver-1] [INFO] [1795128269.163567667] [swarm_bb_02.swarm_bb_diff_drive]: Subscribed to [/swarm_bb_02/cmd_vel]
+[gzserver-1] [INFO] [1795128269.164429089] [swarm_bb_02.swarm_bb_diff_drive]: Advertise odometry on [/swarm_bb_02/odom]
+[INFO] [spawn_entity.py-5]: process has finished cleanly [pid 22080]
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [robot_state_publisher-12]: sending signal 'SIGINT' to process[robot_state_publisher-12]
+[INFO] [robot_state_publisher-10]: sending signal 'SIGINT' to process[robot_state_publisher-10]
+[INFO] [robot_state_publisher-8]: sending signal 'SIGINT' to process[robot_state_publisher-8]
+[INFO] [robot_state_publisher-6]: sending signal 'SIGINT' to process[robot_state_publisher-6]
+[INFO] [robot_state_publisher-4]: sending signal 'SIGINT' to process[robot_state_publisher-4]
+[INFO] [robot_state_publisher-2]: sending signal 'SIGINT' to process[robot_state_publisher-2]
+[INFO] [gzserver-1]: sending signal 'SIGINT' to process[gzserver-1]
+[robot_state_publisher-12] [INFO] [1795128375.277483250] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-10] [INFO] [1795128375.278957320] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-8] [INFO] [1795128375.281303568] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-6] [INFO] [1795128375.285494184] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-4] [INFO] [1795128375.287396870] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-2] [INFO] [1795128375.290317353] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [robot_state_publisher-12]: process has finished cleanly [pid 22094]
+[INFO] [robot_state_publisher-10]: process has finished cleanly [pid 22090]
+[INFO] [robot_state_publisher-8]: process has finished cleanly [pid 22086]
+[INFO] [robot_state_publisher-4]: process has finished cleanly [pid 22078]
+[INFO] [robot_state_publisher-6]: process has finished cleanly [pid 22082]
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 22074]
+[ERROR] [gzserver-1]: process has died [pid 22072, exit code -11, cmd 'gzserver /home/lcmj2803/cobot_swarm/cobots_hero_swarm/src/swarm_bb_description/worlds/rapido.world -slibgazebo_ros_init.so -slibgazebo_ros_factory.so -slibgazebo_ros_force_system.so'].

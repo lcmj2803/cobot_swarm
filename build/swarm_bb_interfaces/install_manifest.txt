@@ -1,0 +1,15 @@
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/ament_index/resource_index/package_run_dependencies/swarm_bb_interfaces
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/ament_index/resource_index/parent_prefix_path/swarm_bb_interfaces
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/environment/ament_prefix_path.sh
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/environment/ament_prefix_path.dsv
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/environment/path.sh
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/environment/path.dsv
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/local_setup.bash
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/local_setup.sh
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/local_setup.zsh
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/local_setup.dsv
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/package.dsv
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/ament_index/resource_index/packages/swarm_bb_interfaces
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/cmake/swarm_bb_interfacesConfig.cmake
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/cmake/swarm_bb_interfacesConfig-version.cmake
+/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces/share/swarm_bb_interfaces/package.xml

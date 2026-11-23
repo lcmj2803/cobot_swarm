@@ -1,0 +1,6 @@
+Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcmj2803/cobot_swarm/swarm_bb_interfaces -DCMAKE_INSTALL_PREFIX=/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces
+Invoked command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcmj2803/cobot_swarm/swarm_bb_interfaces -DCMAKE_INSTALL_PREFIX=/home/lcmj2803/cobot_swarm/install/swarm_bb_interfaces
+Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces -- -j16 -l16
+Invoked command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces -- -j16 -l16
+Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces
+Invoked command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces

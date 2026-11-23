@@ -1,0 +1,11 @@
+[0.014s] Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcmj2803/cobot_swarm/build/swarm_bb_description -- -j16 -l16
+[0.066s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.187s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.200s] -- Found ament_lint_auto: 0.12.0 (/usr/share/ament_lint_auto/cmake)
+[0.271s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.271s] -- Added test 'lint_cmake' to check CMake code style
+[0.272s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.273s] -- Added test 'xmllint' to check XML markup files
+[0.275s] -- Configuring done
+[0.279s] -- Generating done
+[0.280s] -- Build files have been written to: /home/lcmj2803/cobot_swarm/build/swarm_bb_description

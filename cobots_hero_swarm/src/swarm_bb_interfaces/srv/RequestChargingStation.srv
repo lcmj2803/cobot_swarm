@@ -1,0 +1,12 @@
+#Solicitud
+string robot_id
+float32 battery_percentage
+
+
+---
+#Respuesta
+bool accepted
+string station_id
+geometry_msgs/PoseStamped station_pose
+string message
+

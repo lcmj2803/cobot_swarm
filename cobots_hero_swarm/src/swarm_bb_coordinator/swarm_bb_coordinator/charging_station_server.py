@@ -1,0 +1,67 @@
+import rclpy
+from rclpy.node import Node
+from swarm_bb_interfaces.srv import RequestChargingStation
+
+class ChargingStationServer(Node):
+    
+    def __init__(self):
+        super().__init__('charging_station_server')
+        
+        self.service = self.create_service(
+            RequestChargingStation,
+            'swarm/request_charging_station',
+            self.handle_request
+        )
+        
+        self.get_logger().info(
+            'Servidor de estaciones de carga iniciado'
+        )
+        
+    def handle_request(self,request,response):
+        self.get_logger().info(
+            f'solicitud de {request.robot_id} | '
+            f'Bateria: { request.battery_percentage * 100:.1f}%'
+        )
+        
+        #charger_01 siempre está disponible 
+        response.accepted = True
+        response.station_id = 'charger_01'
+        
+        
+        response.station_pose.header.stamp = (
+            self.get_clock().now().to_msg()
+        )
+        
+        response.station_pose.header.frame_id = 'map'
+        
+        response.station_pose.pose.position.x = 2.0
+        response.station_pose.pose.position.y = 0.0
+        response.station_pose.pose.orientation.w = 1.0
+        
+        response.message = 'Estacion de carga asignada'
+        
+        return response
+    
+def main(args=None):
+    rclpy.init(args=args)
+    node = ChargingStationServer()
+        
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+            
+        if rclpy.ok():
+            rclpy.shutdown()
+            
+if __name__ == '__main__':
+    main()
+    
+    
+    
+            
+        
+    
+        

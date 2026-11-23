@@ -1,0 +1,16 @@
+#Objetivo 
+geometry_msgs/PoseStamped target_pose
+float32 position_tolerance
+float32 yaw_tolerance 
+
+---
+ 
+#Resultado final 
+bool success
+string message
+
+---
+#Feedback durante el movimiento
+geometry_msgs/PoseStamped current_pose
+float32 distance_remaining
+

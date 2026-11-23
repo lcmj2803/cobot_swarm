@@ -1,0 +1,55 @@
+[INFO] [launch]: All log files can be found below /home/lcmj2803/.ros/log/2026-11-19-17-44-54-942411-lcmj2803-22501
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [zenoh_swarm_bridge-1]: process started with pid [22502]
+[INFO] [leader_follower_coordinator-2]: process started with pid [22504]
+[leader_follower_coordinator-2] [INFO] [1795128295.312513549] [leader_follower_coordinator]: Starting Swarm Coordinator: Leader=swarm_bb_01, Formation=wedge, Rate=20.0Hz
+[zenoh_swarm_bridge-1] [INFO] [1795128295.342947864] [zenoh_swarm_bridge]: Initializing Zenoh Swarm Bridge for robots: ['swarm_bb_01', 'swarm_bb_02', 'swarm_bb_03', 'swarm_bb_04', 'swarm_bb_05', 'swarm_bb_06']
+[zenoh_swarm_bridge-1] [INFO] [1795128295.347456608] [zenoh_swarm_bridge]: Zenoh session opened successfully.
+[leader_follower_coordinator-2] [INFO] [1795128295.347459052] [leader_follower_coordinator]: Connected to Zenoh network.
+[leader_follower_coordinator-2] [INFO] [1795128295.348606544] [leader_follower_coordinator]: Control loop active at 20.0 Hz.
+[zenoh_swarm_bridge-1] [INFO] [1795128295.350235313] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_01/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.374749392] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_01/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.375577361] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_02/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.376394992] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_02/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.377213462] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_03/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.378134878] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_03/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.379072148] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_04/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.379939228] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_04/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.380844371] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_05/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.381711660] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_05/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.382539279] [zenoh_swarm_bridge]: Registered ROS 2 cmd_vel publisher: /swarm_bb_06/cmd_vel
+[zenoh_swarm_bridge-1] [INFO] [1795128295.383372415] [zenoh_swarm_bridge]: Subscribed to ROS 2 odom topic: /swarm_bb_06/odom
+[zenoh_swarm_bridge-1] [INFO] [1795128295.384460403] [zenoh_swarm_bridge]: Zenoh subscriber registered for: 'swarm/robot/*/cmd_vel'
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[INFO] [leader_follower_coordinator-2]: sending signal 'SIGINT' to process[leader_follower_coordinator-2]
+[INFO] [zenoh_swarm_bridge-1]: sending signal 'SIGINT' to process[zenoh_swarm_bridge-1]
+[leader_follower_coordinator-2] [INFO] [1795128375.275158862] [leader_follower_coordinator]: Shutting down swarm coordinator...
+[leader_follower_coordinator-2] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[zenoh_swarm_bridge-1] [INFO] [1795128375.275451777] [zenoh_swarm_bridge]: Closing Zenoh session...
+[zenoh_swarm_bridge-1] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[leader_follower_coordinator-2] Traceback (most recent call last):
+[leader_follower_coordinator-2]   File "/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/swarm_bb_coordinator/leader_follower_coordinator", line 33, in <module>
+[leader_follower_coordinator-2]     sys.exit(load_entry_point('swarm-bb-coordinator==0.0.0', 'console_scripts', 'leader_follower_coordinator')())
+[leader_follower_coordinator-2]   File "/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/python3.10/site-packages/swarm_bb_coordinator/leader_follower_coordinator.py", line 369, in main
+[leader_follower_coordinator-2]     rclpy.shutdown()
+[leader_follower_coordinator-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[leader_follower_coordinator-2]     _shutdown(context=context)
+[leader_follower_coordinator-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[leader_follower_coordinator-2]     return context.shutdown()
+[leader_follower_coordinator-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[leader_follower_coordinator-2]     self.__context.shutdown()
+[leader_follower_coordinator-2] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[zenoh_swarm_bridge-1] Traceback (most recent call last):
+[zenoh_swarm_bridge-1]   File "/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/swarm_bb_coordinator/zenoh_swarm_bridge", line 33, in <module>
+[zenoh_swarm_bridge-1]     sys.exit(load_entry_point('swarm-bb-coordinator==0.0.0', 'console_scripts', 'zenoh_swarm_bridge')())
+[zenoh_swarm_bridge-1]   File "/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/python3.10/site-packages/swarm_bb_coordinator/zenoh_swarm_bridge.py", line 246, in main
+[zenoh_swarm_bridge-1]     rclpy.shutdown()
+[zenoh_swarm_bridge-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[zenoh_swarm_bridge-1]     _shutdown(context=context)
+[zenoh_swarm_bridge-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[zenoh_swarm_bridge-1]     return context.shutdown()
+[zenoh_swarm_bridge-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[zenoh_swarm_bridge-1]     self.__context.shutdown()
+[zenoh_swarm_bridge-1] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ERROR] [leader_follower_coordinator-2]: process has died [pid 22504, exit code 1, cmd '/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/swarm_bb_coordinator/leader_follower_coordinator --ros-args -r __node:=leader_follower_coordinator --params-file /tmp/launch_params_1rd5xp3v'].
+[ERROR] [zenoh_swarm_bridge-1]: process has died [pid 22502, exit code 1, cmd '/home/lcmj2803/cobot_swarm/cobots_hero_swarm/install/swarm_bb_coordinator/lib/swarm_bb_coordinator/zenoh_swarm_bridge --ros-args -r __node:=zenoh_swarm_bridge --params-file /tmp/launch_params_ad_2wlhe'].

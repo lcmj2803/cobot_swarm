@@ -1,0 +1,95 @@
+top - 17:45:14 up  2:20,  1 user,  load average: 2.11, 0.94, 1.81
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 20.3 us,  4.7 sy,  0.0 ni, 74.2 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st
+MiB Mem :  13818.4 total,    175.3 free,  11894.1 used,   1749.0 buff/cache
+MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   1898.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144928 355160 163960 S 120.0   2.5   0:57.27 gzserver
+  22502 lcmj2803  20   0 1925896  75952  41772 R 106.7   0.5   0:17.03 zenoh_s+
+  22504 lcmj2803  20   0 1921696  72336  40896 S  26.7   0.5   0:05.77 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:16 up  2:20,  1 user,  load average: 2.34, 1.01, 1.83
+Tasks:   4 total,   0 running,   4 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.1 us,  8.6 sy,  0.0 ni, 74.4 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st
+MiB Mem :  13818.4 total,    175.3 free,  11894.1 used,   1749.0 buff/cache
+MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   1898.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144928 355216 163960 S 117.0   2.5   0:59.61 gzserver
+  22502 lcmj2803  20   0 1925896  75952  41772 S  94.5   0.5   0:18.92 zenoh_s+
+  22504 lcmj2803  20   0 1921696  72336  40896 S  24.5   0.5   0:06.26 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:18 up  2:20,  1 user,  load average: 2.34, 1.01, 1.83
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.5 us,  4.4 sy,  0.0 ni, 76.1 id,  0.0 wa,  0.0 hi,  1.0 si,  0.0 st
+MiB Mem :  13818.4 total,    157.9 free,  11917.0 used,   1743.5 buff/cache
+MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   1844.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144928 355216 163960 S 117.0   2.5   1:01.95 gzserver
+  22502 lcmj2803  20   0 1925896  75952  41772 R  96.5   0.5   0:20.85 zenoh_s+
+  22504 lcmj2803  20   0 1921644  72284  40844 S  25.0   0.5   0:06.76 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:20 up  2:20,  1 user,  load average: 2.34, 1.01, 1.83
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.2 us,  4.6 sy,  0.0 ni, 77.4 id,  0.1 wa,  0.0 hi,  0.7 si,  0.0 st
+MiB Mem :  13818.4 total,    157.9 free,  11917.0 used,   1743.5 buff/cache
+MiB Swap:   2048.0 total,      0.1 free,   2047.9 used.   1844.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144388 355152 163896 S 117.0   2.5   1:04.29 gzserver
+  22502 lcmj2803  20   0 1925356  75888  41708 R  98.5   0.5   0:22.82 zenoh_s+
+  22504 lcmj2803  20   0 1921104  72220  40780 S  24.5   0.5   0:07.25 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:22 up  2:20,  1 user,  load average: 3.75, 1.33, 1.93
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 27.5 us,  7.0 sy,  0.0 ni, 64.4 id,  0.2 wa,  0.0 hi,  0.8 si,  0.0 st
+MiB Mem :  13818.4 total,    162.9 free,  11927.0 used,   1728.5 buff/cache
+MiB Swap:   2048.0 total,      0.2 free,   2047.8 used.   1717.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144388 355152 163896 S 116.0   2.5   1:06.61 gzserver
+  22502 lcmj2803  20   0 1925356  75888  41708 R  98.5   0.5   0:24.79 zenoh_s+
+  22504 lcmj2803  20   0 1921104  72264  40780 S  24.0   0.5   0:07.73 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:24 up  2:20,  1 user,  load average: 3.75, 1.33, 1.93
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.9 us,  4.3 sy,  0.0 ni, 78.7 id,  0.1 wa,  0.0 hi,  1.0 si,  0.0 st
+MiB Mem :  13818.4 total,    162.9 free,  11927.0 used,   1728.5 buff/cache
+MiB Swap:   2048.0 total,      0.2 free,   2047.8 used.   1717.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144388 355156 163896 S 116.4   2.5   1:08.95 gzserver
+  22502 lcmj2803  20   0 1925356  75888  41708 R  96.0   0.5   0:26.72 zenoh_s+
+  22504 lcmj2803  20   0 1921104  72264  40780 S  24.9   0.5   0:08.23 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:26 up  2:20,  1 user,  load average: 3.77, 1.37, 1.94
+Tasks:   4 total,   0 running,   4 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.2 us,  5.3 sy,  0.0 ni, 76.4 id,  0.0 wa,  0.0 hi,  1.0 si,  0.0 st
+MiB Mem :  13818.4 total,    164.7 free,  11934.2 used,   1719.5 buff/cache
+MiB Swap:   2048.0 total,      0.2 free,   2047.8 used.   1718.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144388 355156 163896 S 117.0   2.5   1:11.29 gzserver
+  22502 lcmj2803  20   0 1925356  75888  41708 S  99.0   0.5   0:28.70 zenoh_s+
+  22504 lcmj2803  20   0 1921104  72264  40780 S  24.0   0.5   0:08.71 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash
+
+top - 17:45:28 up  2:20,  1 user,  load average: 3.77, 1.37, 1.94
+Tasks:   4 total,   1 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.9 us,  6.1 sy,  0.0 ni, 69.9 id,  0.0 wa,  0.0 hi,  1.0 si,  0.0 st
+MiB Mem :  13818.4 total,    164.7 free,  11934.2 used,   1719.5 buff/cache
+MiB Swap:   2048.0 total,      0.2 free,   2047.8 used.   1718.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+  22072 lcmj2803  20   0 9144388 355156 163896 S 117.0   2.5   1:13.63 gzserver
+  22502 lcmj2803  20   0 1925356  75888  41708 R 101.5   0.5   0:30.73 zenoh_s+
+  22504 lcmj2803  20   0 1921104  72264  40780 S  25.5   0.5   0:09.22 leader_+
+  22017 lcmj2803  20   0   13692   4512   3404 S   0.0   0.0   0:00.01 bash

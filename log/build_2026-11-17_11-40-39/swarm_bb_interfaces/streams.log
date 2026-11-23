@@ -1,0 +1,5 @@
+[0.015s] Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces -- -j16 -l16
+[0.059s] [0mCMake Error: The source directory "/home/lcmj2803/cobot_swarm/swarm_bb_interfaces" does not exist.
+[0.059s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.062s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.065s] Invoked command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lcmj2803/cobot_swarm/build/swarm_bb_interfaces -- -j16 -l16

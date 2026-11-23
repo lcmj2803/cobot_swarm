@@ -1,0 +1,56 @@
+[0.011s] Invoking command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcmj2803/cobot_swarm/cobots_hero_swarm/src/swarm_bb_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lcmj2803/cobot_swarm/install/swarm_bb_description
+[0.130s] -- The C compiler identification is GNU 11.4.0
+[0.222s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.318s] -- Detecting C compiler ABI info - done
+[0.324s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.324s] -- Detecting C compile features
+[0.325s] -- Detecting C compile features - done
+[0.328s] -- Detecting CXX compiler ABI info
+[0.415s] -- Detecting CXX compiler ABI info - done
+[0.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.421s] -- Detecting CXX compile features
+[0.422s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.215s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.249s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[1.251s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.300s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.306s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.316s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.414s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.415s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.415s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.464s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.467s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.595s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.630s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.682s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.692s] -- Looking for pthread.h
+[1.783s] -- Looking for pthread.h - found
+[1.783s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.865s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.866s] -- Found Threads: TRUE  
+[2.090s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[2.091s]   By not providing "Findjoint_publisher_gui.cmake" in CMAKE_MODULE_PATH this
+[2.091s]   project has asked CMake to find a package configuration file provided by
+[2.091s]   "joint_publisher_gui", but CMake did not find one.
+[2.091s] 
+[2.091s]   Could not find a package configuration file provided by
+[2.091s]   "joint_publisher_gui" with any of the following names:
+[2.091s] 
+[2.091s]     joint_publisher_guiConfig.cmake
+[2.091s]     joint_publisher_gui-config.cmake
+[2.091s] 
+[2.092s]   Add the installation prefix of "joint_publisher_gui" to CMAKE_PREFIX_PATH
+[2.092s]   or set "joint_publisher_gui_DIR" to a directory containing one of the above
+[2.092s]   files.  If "joint_publisher_gui" provides a separate development package or
+[2.092s]   SDK, be sure it has been installed.
+[2.092s] 
+[2.092s] [0m
+[2.092s] -- Configuring incomplete, errors occurred!
+[2.092s] See also "/home/lcmj2803/cobot_swarm/build/swarm_bb_description/CMakeFiles/CMakeOutput.log".
+[2.101s] Invoked command in '/home/lcmj2803/cobot_swarm/build/swarm_bb_description' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lcmj2803/cobot_swarm/cobots_hero_swarm/src/swarm_bb_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lcmj2803/cobot_swarm/install/swarm_bb_description

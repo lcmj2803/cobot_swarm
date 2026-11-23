@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000797] (swarm_bb_description) JobQueued: {'identifier': 'swarm_bb_description', 'dependencies': OrderedDict()}
+[0.000913] (swarm_bb_description) JobStarted: {'identifier': 'swarm_bb_description'}
+[0.010331] (swarm_bb_description) JobProgress: {'identifier': 'swarm_bb_description', 'progress': 'cmake'}
+[0.010915] (swarm_bb_description) Command: {'cmd': ['/usr/bin/cmake', '/home/lcmj2803/cobot_swarm/cobots_hero_swarm/src/swarm_bb_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/lcmj2803/cobot_swarm/install/swarm_bb_description'], 'cwd': '/home/lcmj2803/cobot_swarm/build/swarm_bb_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lcmj2803'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lcmj2803'), ('OLDPWD', '/home/lcmj2803'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NIX_PROFILES', '/nix/var/nix/profiles/default /home/lcmj2803/.nix-profile'), ('MANAGERPID', '2421'), ('SYSTEMD_EXEC_PID', '2790'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21739'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lcmj2803'), ('SUMO_HOME', '/usr/share/sumo'), ('JOURNAL_STREAM', '8:21274'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lcmj2803'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/lcmj2803/.nix-profile/bin:/home/lcmj2803/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lcmj2803:@/tmp/.ICE-unix/2573,unix/lcmj2803:/tmp/.ICE-unix/2573'), ('INVOCATION_ID', 'd321a27e512c425a94fcc59e8010b092'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56ZGU3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:347a79c1-3389-4b7e-9618-bd37df2cc765'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('NIX_SSL_CERT_FILE', '/etc/ssl/certs/ca-certificates.crt'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lcmj2803/cobot_swarm/build/swarm_bb_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/lcmj2803/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop:/home/lcmj2803/.nix-profile/share:/nix/var/nix/profiles/default/share'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099559] (-) TimerEvent: {}
+[0.130356] (swarm_bb_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199682] (-) TimerEvent: {}
+[0.223246] (swarm_bb_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.234672] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299860] (-) TimerEvent: {}
+[0.318456] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.324635] (swarm_bb_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.324958] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.325588] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.328915] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400022] (-) TimerEvent: {}
+[0.415306] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.421864] (swarm_bb_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.422262] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.422594] (swarm_bb_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.428697] (swarm_bb_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500145] (-) TimerEvent: {}
+[0.600478] (-) TimerEvent: {}
+[0.700882] (-) TimerEvent: {}
+[0.801260] (-) TimerEvent: {}
+[0.901579] (-) TimerEvent: {}
+[1.001895] (-) TimerEvent: {}
+[1.102214] (-) TimerEvent: {}
+[1.150907] (swarm_bb_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.202348] (-) TimerEvent: {}
+[1.216046] (swarm_bb_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.249905] (swarm_bb_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[1.251989] (swarm_bb_description) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[1.300456] (swarm_bb_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.302456] (-) TimerEvent: {}
+[1.306650] (swarm_bb_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.316923] (swarm_bb_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.331551] (swarm_bb_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.348397] (swarm_bb_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402628] (-) TimerEvent: {}
+[1.414790] (swarm_bb_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.415965] (swarm_bb_description) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.416041] (swarm_bb_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.464666] (swarm_bb_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.467474] (swarm_bb_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.502773] (-) TimerEvent: {}
+[1.595266] (swarm_bb_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.602912] (-) TimerEvent: {}
+[1.630884] (swarm_bb_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.682249] (swarm_bb_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.692798] (swarm_bb_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.703057] (-) TimerEvent: {}
+[1.783611] (swarm_bb_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.783961] (swarm_bb_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.803203] (-) TimerEvent: {}
+[1.865906] (swarm_bb_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.866868] (swarm_bb_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.903377] (-) TimerEvent: {}
+[2.003846] (-) TimerEvent: {}
+[2.091187] (swarm_bb_description) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[2.091475] (swarm_bb_description) StderrLine: {'line': b'  By not providing "Findjoint_publisher_gui.cmake" in CMAKE_MODULE_PATH this\n'}
+[2.091624] (swarm_bb_description) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[2.091741] (swarm_bb_description) StderrLine: {'line': b'  "joint_publisher_gui", but CMake did not find one.\n'}
+[2.091848] (swarm_bb_description) StderrLine: {'line': b'\n'}
+[2.091952] (swarm_bb_description) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[2.092056] (swarm_bb_description) StderrLine: {'line': b'  "joint_publisher_gui" with any of the following names:\n'}
+[2.092159] (swarm_bb_description) StderrLine: {'line': b'\n'}
+[2.092261] (swarm_bb_description) StderrLine: {'line': b'    joint_publisher_guiConfig.cmake\n'}
+[2.092323] (swarm_bb_description) StderrLine: {'line': b'    joint_publisher_gui-config.cmake\n'}
+[2.092373] (swarm_bb_description) StderrLine: {'line': b'\n'}
+[2.092423] (swarm_bb_description) StderrLine: {'line': b'  Add the installation prefix of "joint_publisher_gui" to CMAKE_PREFIX_PATH\n'}
+[2.092473] (swarm_bb_description) StderrLine: {'line': b'  or set "joint_publisher_gui_DIR" to a directory containing one of the above\n'}
+[2.092523] (swarm_bb_description) StderrLine: {'line': b'  files.  If "joint_publisher_gui" provides a separate development package or\n'}
+[2.092591] (swarm_bb_description) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[2.092641] (swarm_bb_description) StderrLine: {'line': b'\n'}
+[2.092690] (swarm_bb_description) StderrLine: {'line': b'\x1b[0m\n'}
+[2.092740] (swarm_bb_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.092799] (swarm_bb_description) StdoutLine: {'line': b'See also "/home/lcmj2803/cobot_swarm/build/swarm_bb_description/CMakeFiles/CMakeOutput.log".\n'}
+[2.102089] (swarm_bb_description) CommandEnded: {'returncode': 1}
+[2.103931] (-) TimerEvent: {}
+[2.126562] (swarm_bb_description) JobEnded: {'identifier': 'swarm_bb_description', 'rc': 1}
+[2.137447] (-) EventReactorShutdown: {}
